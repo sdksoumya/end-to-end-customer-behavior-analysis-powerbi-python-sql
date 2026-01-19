@@ -1,266 +1,132 @@
-# \# Customer Behavior Analysis – Business Insights Report
+# Customer Behavior Analysis – Business Insights Report
 
-# 
+## 1. Executive Summary
 
-# \## 1. Executive Summary
+This report presents key business insights derived from an end-to-end customer behavior analysis using Python, SQL, and Power BI. The objective of the analysis was to understand customer purchasing patterns, subscription behavior, category-wise performance, and demographic trends in order to support data-driven decision-making.
 
-# 
+The analysis reveals strong revenue concentration within specific customer segments and product categories, highlighting clear opportunities for targeted marketing, subscription growth, and operational optimization.
 
-# This report presents key business insights derived from an end-to-end customer behavior analysis using Python, SQL, and Power BI. The objective of the analysis was to understand customer purchasing patterns, subscription behavior, category-wise performance, and demographic trends in order to support data-driven decision-making.
+---
 
-# 
+## 2. Dataset Overview
 
-# The analysis reveals strong revenue concentration within specific customer segments and product categories, highlighting clear opportunities for targeted marketing, subscription growth, and operational optimization.
+* **Total Customers Analyzed:** ~3,900
+* **Key Attributes:**
 
-# 
+  * Customer demographics (age group, gender)
+  * Purchase categories (Clothing, Accessories, Footwear, Outerwear)
+  * Subscription status
+  * Shipping type
+  * Review ratings
+  * Purchase and sales metrics
 
-# ---
+The dataset was cleaned and preprocessed using Python before being queried via SQL and visualized in Power BI.
 
-# 
+---
 
-# \## 2. Dataset Overview
+## 3. Key Performance Indicators (KPIs)
+(https://github.com/sdksoumya/end-to-end-customer-behavior-analysis-powerbi-python-sql/blob/main/visuals/customer_behavior_dashboard.png)
+| Metric                  | Value    |
+| ----------------------- | -------- |
+| Total Customers         | ~3.9K    |
+| Average Purchase Amount | $59.76   |
+| Average Customer Rating | 3.75 / 5 |
+| Subscription Adoption   | 27%      |
+| Non-Subscribers         | 73%      |
 
-# 
+These KPIs establish a baseline for evaluating customer engagement and revenue potential.
 
-# \* \*\*Total Customers Analyzed:\*\* ~3,900
+---
 
-# \* \*\*Key Attributes:\*\*
+## 4. Customer Subscription Analysis
 
-# 
+* Only **27% of customers** are subscribed, while **73% remain non-subscribers**.
+* This indicates a **significant opportunity** to increase recurring revenue through subscription-based incentives.
+* Subscription penetration remains low across all customer segments.
 
-# &nbsp; \* Customer demographics (age group, gender)
+**Business Implication:**
+Introducing personalized subscription benefits or targeted onboarding campaigns could substantially improve customer lifetime value.
 
-# &nbsp; \* Purchase categories (Clothing, Accessories, Footwear, Outerwear)
+---
 
-# &nbsp; \* Subscription status
+## 5. Category-Wise Performance Analysis
 
-# &nbsp; \* Shipping type
+### Revenue by Category
 
-# &nbsp; \* Review ratings
+* **Clothing** generates the highest revenue.
+* **Accessories** show moderate but consistent performance.
+* **Footwear and Outerwear** contribute lower revenue volumes.
 
-# &nbsp; \* Purchase and sales metrics
+### Sales Volume by Category
 
-# 
+* Sales volume trends mirror revenue trends.
+* Clothing leads both in revenue and quantity sold.
 
-# The dataset was cleaned and preprocessed using Python before being queried via SQL and visualized in Power BI.
+**Business Implication:**
+Inventory planning and marketing budgets should prioritize Clothing and Accessories while reassessing pricing or promotion strategies for underperforming categories.
 
-# 
+---
 
-# ---
+## 6. Demographic Insights – Age Group Analysis
 
-# 
+### Revenue by Age Group
 
-# \## 3. Key Performance Indicators (KPIs)
+* **Young Adults** contribute the highest revenue.
+* **Middle-aged customers** follow closely.
+* Seniors and Adults show relatively lower revenue contribution.
 
-# 
+### Sales by Age Group
 
-# | Metric                  | Value    |
+* Young Adults lead in purchase frequency.
+* Middle-aged customers demonstrate stable purchasing behavior.
 
-# | ----------------------- | -------- |
+**Business Implication:**
+Marketing campaigns should primarily target Young Adult and Middle-aged segments with personalized offers, loyalty programs, and subscription incentives.
 
-# | Total Customers         | ~3.9K    |
+---
 
-# | Average Purchase Amount | $59.76   |
+## 7. Customer Satisfaction Overview
 
-# | Average Customer Rating | 3.75 / 5 |
+* The average customer rating is **3.75**, indicating moderate satisfaction.
+* There is room to improve post-purchase experience, logistics, and customer support.
 
-# | Subscription Adoption   | 27%      |
+**Business Implication:**
+Improving delivery experience, product quality consistency, and follow-up engagement may increase ratings and repeat purchases.
 
-# | Non-Subscribers         | 73%      |
+---
 
-# 
+## 8. Strategic Recommendations
 
-# These KPIs establish a baseline for evaluating customer engagement and revenue potential.
+1. **Increase Subscription Conversion**
 
-# 
+   * Offer limited-time discounts or loyalty rewards for first-time subscribers.
+   * Bundle free or faster shipping with subscriptions.
 
-# ---
+2. **Focus on High-Performing Segments**
 
-# 
+   * Allocate marketing spend toward Young Adult and Middle-aged customers.
+   * Upsell premium products within Clothing and Accessories categories.
 
-# \## 4. Customer Subscription Analysis
+3. **Optimize Underperforming Categories**
 
-# 
+   * Re-evaluate pricing and promotional strategy for Footwear and Outerwear.
+   * Analyze customer feedback for category-specific improvement.
 
-# \* Only \*\*27% of customers\*\* are subscribed, while \*\*73% remain non-subscribers\*\*.
+4. **Enhance Customer Experience**
 
-# \* This indicates a \*\*significant opportunity\*\* to increase recurring revenue through subscription-based incentives.
+   * Improve logistics and shipping reliability.
+   * Implement post-purchase engagement to boost satisfaction ratings.
 
-# \* Subscription penetration remains low across all customer segments.
+---
 
-# 
+## 9. Conclusion
 
-# \*\*Business Implication:\*\*
+This analysis demonstrates how integrated use of Python, SQL, and Power BI can transform raw customer data into actionable business insights. By leveraging these findings, organizations can improve subscription adoption, optimize product strategy, and enhance overall customer experience.
 
-# Introducing personalized subscription benefits or targeted onboarding campaigns could substantially improve customer lifetime value.
+This project reflects a real-world analytics workflow aligned with professional data analyst responsibilities.
 
-# 
+---
 
-# ---
-
-# 
-
-# \## 5. Category-Wise Performance Analysis
-
-# 
-
-# \### Revenue by Category
-
-# 
-
-# \* \*\*Clothing\*\* generates the highest revenue.
-
-# \* \*\*Accessories\*\* show moderate but consistent performance.
-
-# \* \*\*Footwear and Outerwear\*\* contribute lower revenue volumes.
-
-# 
-
-# \### Sales Volume by Category
-
-# 
-
-# \* Sales volume trends mirror revenue trends.
-
-# \* Clothing leads both in revenue and quantity sold.
-
-# 
-
-# \*\*Business Implication:\*\*
-
-# Inventory planning and marketing budgets should prioritize Clothing and Accessories while reassessing pricing or promotion strategies for underperforming categories.
-
-# 
-
-# ---
-
-# 
-
-# \## 6. Demographic Insights – Age Group Analysis
-
-# 
-
-# \### Revenue by Age Group
-
-# 
-
-# \* \*\*Young Adults\*\* contribute the highest revenue.
-
-# \* \*\*Middle-aged customers\*\* follow closely.
-
-# \* Seniors and Adults show relatively lower revenue contribution.
-
-# 
-
-# \### Sales by Age Group
-
-# 
-
-# \* Young Adults lead in purchase frequency.
-
-# \* Middle-aged customers demonstrate stable purchasing behavior.
-
-# 
-
-# \*\*Business Implication:\*\*
-
-# Marketing campaigns should primarily target Young Adult and Middle-aged segments with personalized offers, loyalty programs, and subscription incentives.
-
-# 
-
-# ---
-
-# 
-
-# \## 7. Customer Satisfaction Overview
-
-# 
-
-# \* The average customer rating is \*\*3.75\*\*, indicating moderate satisfaction.
-
-# \* There is room to improve post-purchase experience, logistics, and customer support.
-
-# 
-
-# \*\*Business Implication:\*\*
-
-# Improving delivery experience, product quality consistency, and follow-up engagement may increase ratings and repeat purchases.
-
-# 
-
-# ---
-
-# 
-
-# \## 8. Strategic Recommendations
-
-# 
-
-# 1\. \*\*Increase Subscription Conversion\*\*
-
-# 
-
-# &nbsp;  \* Offer limited-time discounts or loyalty rewards for first-time subscribers.
-
-# &nbsp;  \* Bundle free or faster shipping with subscriptions.
-
-# 
-
-# 2\. \*\*Focus on High-Performing Segments\*\*
-
-# 
-
-# &nbsp;  \* Allocate marketing spend toward Young Adult and Middle-aged customers.
-
-# &nbsp;  \* Upsell premium products within Clothing and Accessories categories.
-
-# 
-
-# 3\. \*\*Optimize Underperforming Categories\*\*
-
-# 
-
-# &nbsp;  \* Re-evaluate pricing and promotional strategy for Footwear and Outerwear.
-
-# &nbsp;  \* Analyze customer feedback for category-specific improvement.
-
-# 
-
-# 4\. \*\*Enhance Customer Experience\*\*
-
-# 
-
-# &nbsp;  \* Improve logistics and shipping reliability.
-
-# &nbsp;  \* Implement post-purchase engagement to boost satisfaction ratings.
-
-# 
-
-# ---
-
-# 
-
-# \## 9. Conclusion
-
-# 
-
-# This analysis demonstrates how integrated use of Python, SQL, and Power BI can transform raw customer data into actionable business insights. By leveraging these findings, organizations can improve subscription adoption, optimize product strategy, and enhance overall customer experience.
-
-# 
-
-# This project reflects a real-world analytics workflow aligned with professional data analyst responsibilities.
-
-# 
-
-# ---
-
-# 
-
-# \*\*Prepared by:\*\* Soumyadeep Kundu
-
-# \*\*Tools Used:\*\* Python, SQL, Power BI
-
-# \*\*Project Type:\*\* End-to-End Data Analytics
-
-
-
+**Prepared by:** Soumyadeep Kundu
+**Tools Used:** Python, SQL, Power BI
+**Project Type:** End-to-End Data Analytics
