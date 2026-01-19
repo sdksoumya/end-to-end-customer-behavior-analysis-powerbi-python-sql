@@ -150,10 +150,3 @@ The dashboard is fully interactive with slicers for:
 * Optimize underperforming product categories
 * Enhance customer experience to improve satisfaction ratings
 
----
-
-## 👤 Author
-
-**Soumyadeep Kundu**
-Aspiring Data Analyst
-Skilled in Python, SQL, Power BI, and end-to-end data analytics workflows
