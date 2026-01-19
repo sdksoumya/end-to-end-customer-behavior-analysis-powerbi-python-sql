@@ -157,31 +157,3 @@ The dashboard is fully interactive with slicers for:
 **Soumyadeep Kundu**
 Aspiring Data Analyst
 Skilled in Python, SQL, Power BI, and end-to-end data analytics workflows
-
----
-
-## 📎 How to Use This Repository
-
-1. Clone the repository
-2. Review data cleaning notebook for Python workflow
-3. Explore SQL queries for analysis logic
-4. Open Power BI dashboard to interact with insights
-5. Refer to insights report for business conclusions
-
----
-
-## ⭐ Why This Project Matters
-
-This project demonstrates:
-
-* Real-world analytics thinking
-* Clean and reproducible workflows
-* Business-focused insights
-* Strong documentation standards
-
-It is suitable for:
-
-* Data Analyst roles
-* Portfolio evaluation
-* Academic submission
-* Interview discussion
